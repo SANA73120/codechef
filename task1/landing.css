@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,800;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@100&display=swap');
+ 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #5e0303;
+}
+li {
+    display: inline;
+    float: right;
+    padding: 5px;
+}
+a {
+    display: block;
+    padding: 8px;
+    color: white;
+    font-family: Helvetica;
+    text-align: center;
+    text-decoration: none;
+}
+.nav{
+    font-size: 28px;
+}
+.home{
+    width: 100vm;
+    height: 50vw;
+    position: relative;
+    background-image: url('rest.png');
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+.head-content{
+    width: 100%;
+    height: 100%;
+    font-size: 26px;
+    color:white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0,0,0,0.5);
+}
+#wel{
+    font-size:4vw;
+    margin:0;
+    text-align:center;
+    font-family: 'Satisfy', cursive;  
+    letter-spacing: 5px;
+}
+#skz{
+    font-size:6vw;
+    margin:0;
+    text-align:center;
+    font-family: 'Impact';
+    letter-spacing: 5px;
+}
+#tasty{
+    font-family: 'Pacifico', cursive;
+} 
+
+/*-----------second page----------*/
+ 
+#about-us{
+    width: 100vw;
+    height: 50vw;
+    background-image: url('rest.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.content{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+.rectangle{
+    height: 35vw;
+    width: 80vw;
+    background-color: #5e0303;
+    margin: 10% 10% 10% 10%;
+}
+.about-us {
+    display: flex;
+    gap: 1.5rem;
+    min-height: 100vh;
+}
+.rect-head{
+    font-size: 50px;
+    font-family: 'Impact';
+    color:rgb(248, 230, 230);
+    padding-top: 30px;
+    padding-left: 30px;
+  
+}
+.clip-elli{
+    clip-path: ellipse(48% 40% at 50% 51%);
+    width: 100%;
+    height: auto;
+}
+.chan{
+    color: #fcfcfc;
+    font-size: 2vw;
+    margin-left: 30px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    object-fit: cover;
+}
+
+/*----------------third page-------------*/
+
+#our-menu{
+    background-color: aliceblue;
+    height: 50vw;
+    width: 100vw;
+}
+.container{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.menu-img{
+    height: 310px;
+    width: 350px;
+    border-radius: 3px;
+}
+.our-menu{
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    align-items: center;
+}
+.card{
+    height: 500px;
+    margin: 50px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+}
+.intro{
+    height: 70px;
+    width: 350px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: absolute;
+    background: rgb(255, 251, 251);
+    color: rgb(90, 5, 5);
+}
+h6{
+    margin: 5px;
+    font-family: 'Impact';
+    font-size: 40px;
+}
+.menu-intro{
+    font-size: 20px;
+    margin: 0px;
+    color: rgb(230, 59, 59);
+    font-weight: bold;
+}
+
