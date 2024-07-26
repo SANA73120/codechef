@@ -13,4 +13,10 @@ function deleteLast() {
 
 function calculateResult() {
     let display = document.getElementById('result');
+    try{
+        display.value=eval(display.value);
+    }
+    catch(e){
+        display.value="Error";
+    }
 }
