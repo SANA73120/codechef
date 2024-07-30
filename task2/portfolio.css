@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient(rgb(58, 55, 55), rgb(29, 26, 26),black);
+}
+.nav{
+
+    font-size: 20px;
+    background-color: black;
+    position: fixed;
+    height: 100%;
+    width: 170px;
+    padding: 100px 0 20px 20px;
+    position: fixed;
+}
+li{
+    height: 50px;
+    width: 100%;
+    margin: 0 5px;
+    list-style: none;
+}
+a {
+    padding: 0px;
+    margin: 0px;
+    color: rgb(255, 248, 248);
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+.name{ 
+    font-weight: bolder;
+}
+a:hover{
+    color: #ffbf35;
+    text-decoration: underline;
+}
+.text1{
+    margin-left: 200px; 
+    padding: 20px;
+}
+.text{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    object-fit: cover;
+}
+.wel{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+    color: blanchedalmond;
+}
+h1{
+    color: aliceblue;
+    padding: 10px 0 20px 0;
+}
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aqua;
+}
+.image{
+    width: 300px; 
+    height: 300px;
+    background-color: aliceblue;
+    float: right;
+    clip-path: ellipse(46% 50% at 49% 50%);
+    object-fit: cover;
+}
+.imhg{
+    padding: 0 0 0 350px;
+}
+.name{
+    color: #ffbf35;
+}
+a.social{
+    float: left;
+	text-decoration: none;
+	font-size: 30px;
+	margin-top: 20px;
+	border-radius: 50%;
+	text-align: center;
+	border: 2px solid #ffbf35;
+	color: #ffbf35;
+	margin-left: 10px;
+	height: 50px;
+	width: 50px;
+	line-height: 50px;
+}
+
+
+.heading-text{
+    font-size: 40px;
+    color: aqua;
+    text-decoration: underline;
+}
+#skills {
+	margin: 300px 0 200px 200px; 
+    padding: 20px;
+	font-size: 17px;
+}
+.skill{
+    padding: 50px 0 0 0;
+    font-size: 20px;
+    color: #cdcdcd;
+}
+.skill span {
+	float: right;
+}
+
+.skill div {
+	width: 100%;
+	float: left;
+	margin-top: 5px;
+	background: #e7e7e7;
+	border-radius: 10px;
+}
+
+.skill div span {
+	background: #ffbf35;
+	height: 15px;
+	float: left;
+}
+
+
+/*****FOOTER SECTION*****/
+.footer {
+	background-color: #202020;
+	padding: 30px 0px 40px 0px;
+	width: 100%;
+	float: left;
+    margin: 0 0 0 150px; 
+    padding: 20px;
+}
+.footer-sect {
+	color: #b3b3b3;
+}
